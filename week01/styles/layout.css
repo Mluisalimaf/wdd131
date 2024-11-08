@@ -6,7 +6,6 @@
 
 body{
     display: grid;
-    grid-template: auto 1 fr auto / auto 1fr auto;
 }
 
 header{
