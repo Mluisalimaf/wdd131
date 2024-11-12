@@ -38,6 +38,7 @@ main{
     border: 1px solid #ddd;
     margin-left: 70px;
     margin-right: 70px;
+    max-width: 100%;
 }
 
 .card-1{
