@@ -11,10 +11,11 @@ body{
     font-weight: 400;
     font-style: normal;
     display: grid;
+    background-color: #6f93be;
 }
 
 header{
-    background-color: blueviolet;
+    background: #94bbe9;
     grid-column: 1/5;
 }
 
@@ -22,10 +23,11 @@ h1{
     margin-bottom: 40px;
     padding: 10px;
     text-align: center;
+    color: white;
 }
 
 .menu{
-    background-color: rgb(163, 123, 123);
+    background-color:white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -38,11 +40,12 @@ h1{
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
+    color: gray;
 }
 
 nav a:hover {
 	text-decoration: underline;
-    color: white;
+    color: black;
 }
 
 main{
@@ -54,19 +57,22 @@ main{
 }
 
 .card-1{
-    border: black 1px solid;
+    border: white 1px solid;
     display: grid;
     align-items: start;
     grid-column: 1/2;
     border-radius: 5px;
+    background-color: white;
 }
 
 h2{
-    background-color: yellow;
+    background-color: #a2d1bf;
     margin-bottom: 20px;
-    border: 1px solid black;
+    border: 1px solid white;
     text-align: center;
     font-size: 32px;
+    color: gray;
+    border-radius: 7px 7px 0px 0px;
 }
 
 .conteiner-1{
@@ -87,12 +93,14 @@ img{
     flex: 1; 
     font-size: 16px;
     line-height: 1.6;
+    color: gray;
 }
 
 h4{
     text-align: center;
     font-size: 20px;
     text-decoration: underline;
+    color: gray;
 }
 
 .conteiner-2{
@@ -106,16 +114,19 @@ h4{
 
 .conteiner-2 p{
     padding: 20px;
+    color: gray;
 }
 
 .card-2{
     grid-column: 2/4;
-    border: black 1px solid;
-    border-radius: 8px;
+    border: white 1px solid;
+    border-radius: 7px;
+    background-color: white;
 }
 
 .card-2 h2{
-    border: 1px solid black;
+    border: 1px solid white;
+    border-radius: 7px 7px 0px 0px;
 }
 
 .links{
@@ -124,7 +135,7 @@ h4{
 }
 
 footer{
-    background-color: rgb(94, 87, 87);
+    background-color: white;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -134,5 +145,7 @@ footer p{
     margin: 8px;
     text-align: center;
     font-size: 16px;
+    color: gray;
+    font-weight: 600;
 }
 
