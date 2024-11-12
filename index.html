@@ -7,7 +7,7 @@
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Home Page.">
     <link rel="stylesheet" href="styles/base.css"/>
     <title>WDD 131 - Dynamic Web Fundamentals - Maria Luisa Ferraz</title>
-    <script src="scripts/getdates.js"></script>
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
     <header>
@@ -26,7 +26,6 @@
         <section class="card-1">
             <h2>About Me</h2>
             <div  class="conteiner-1">
-                <img src="images/perfil-photo.jpg" alt="My photo. i'm white, white brown and lonh hair. I'm using a white shirt and I'm near the ocean.">
                 <p>My name is Maria Luisa, but my friends call me Malu.
                     I was born in the state of Rio de Janeiro. 
                     Now, i'm married for almost 6 years. 
@@ -34,11 +33,16 @@
                     certification in Web Development. 
                     I love learning how to do new things.
                 </p>
-
+                <img src="images/perfil-photo.jpg" alt="My photo. i'm white, white brown and lonh hair. I'm using a white shirt and I'm near the ocean.">
+            </div>
+            <h4>Brazil</h4>
             <div class="conteiner-2">
                 <img src="images/brazil-flag.jpg" alt="Brazil flag">
-                <p>brazil brazil brazil bvrazil</p>
-            </div>
+                <p>Brazil, a South American country with Portuguese 
+                    as its official language, has a population of 
+                    approximately 216.4 million people. It stretches 
+                    from the Amazon Basin in the north to the vineyards 
+                    and the majestic Iguazu Falls in the south. </p>
             </div>
         </section>
 
@@ -46,10 +50,10 @@
             <h2>Web Dev Resources</h2>
             <nav class = "links">
                 <ul>
-                    <li><a href="#">Link1</a></li>
-                    <li><a href="#">Link2</a></li>
-                    <li><a href="#">Link3</a></li>
-                    <li><a href="#">Link4</a></li>
+                    <li><a href="https://roadmap.sh/">Roadmap</a></li>
+                    <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                    <li><a href="https://auth.netacad.com/auth/realms/skillsforall/login-actions/authenticate?client_id=b2e-marketplace&tab_id=QlyDJuudW9Y&execution=544c98b5-6b03-41d5-b104-b625ecff8ce5&kc_locale=en">Cisco Skills For All</a></li>
+                    <li><a href="https://www.deeplearning.ai/courses/">DeepLearning AI</a></li>
                 </ul>
             </nav>
         </section> 
@@ -57,7 +61,7 @@
 
     <footer>
         <p>©2024 🦋 Maria Luisa Ferraz 🏖️ Rio de Janeiro, Brazil</p>
-        <p>Last Modification: <span id="currentyear"></span></p>
+        <p id="lastModified"></p>
     </footer>
     
 </body>
