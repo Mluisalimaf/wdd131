@@ -1,0 +1,27 @@
+@media screen and (max-width: 700px){
+    .menu-mobile {
+        font-size: 30px;
+        padding: 20px;
+        color: white;
+    }
+
+    .h1{
+        color: white;
+    }
+    
+    .menu{
+        display: none;
+        flex-direction: column;
+        background-color: #8357af;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        left: 0;
+        padding: 10px 0;
+        z-index: 9;
+    }
+
+    .menu-mobile {
+        display: block;
+    }
+}    
