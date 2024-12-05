@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maria Luisa Ferraz">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Place Page.">
+    <link rel="stylesheet" href="styles/place.css"/>
+    <link rel="stylesheet" href="styles/place-responsive.css">
+    <title>WDD 131 - Dynamic Web Fundamentals - Maria Luisa Ferraz</title>
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <div class="container"> 
+        <h1>Thailand</h1> 
+        <div class="hero"> 
+            <picture> 
+            <source media="(min-width: 1000px)" srcset="images/hero-image1.webp"> 
+            <source media="(min-width: 500px)" srcset="images/hero-image2.webp"> 
+            <img src="images/hero-image3.webp" alt="Night in Thailand: a photo of the streets." class="hero-image"> 
+            </picture> 
+            <div class="content"> 
+                <div class="data"> 
+                    <h2>Data</h2> 
+                    <div class="item"><span>Area:</span><span>587,041 sq km</span></div> 
+                    <div class="item"><span>Population:</span><span>27,691,018</span></div> 
+                    <div class="item"><span>Capital:</span><span>Antananarivo</span></div> 
+                    <div class="item"><span>Languages:</span><span>mmmm</span></div> 
+                    <div class="item"><span>Currency:</span><span>Bat</span></div> 
+                    <div class="item"><span>Time Zone:</span><span>UTC+3</span></div> 
+                    <div class="item"><span>Calling Code:</span><span>+261</span></div>  
+                </div> 
+                <div class="weather"> 
+                    <h2>Weather ⛅</h2> 
+                    <div class="item"><span>Temperature:</span><span>10°C</span></div> 
+                    <div class="item"><span>Conditions:</span><span>Partly Cloudy</span></div> 
+                    <div class="item"><span>Wind:</span><span>5 km/h</span></div> 
+                    <div class="item"><span>Wind Chill:</span><span id="windchill">N/A</span></div> 
+                </div> 
+            </div> 
+        </div>
+        <div class="footer"> 
+            <p>©2024 🦋 Maria Luisa Ferraz 🏖️ Rio de Janeiro, Brazil</p>
+            <p id="lastModified"></p>
+        </div> 
+    </div> 
+</body>
+</html>

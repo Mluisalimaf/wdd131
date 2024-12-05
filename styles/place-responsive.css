@@ -1,0 +1,34 @@
+@media (max-width: 750px) { 
+    .content { 
+        display: grid; 
+        grid-template-columns: auto;
+        border: 2px solid black;
+    } 
+    
+    .data{ 
+        border: none;
+        padding: 20px;
+        margin: auto;
+        border-bottom: 2px solid black;
+    } 
+
+    .weather { 
+        border: none;
+        padding: 20px;
+        margin: auto;
+    } 
+    
+    .hero-image { 
+        height: auto; 
+        background-color: aquamarine;
+    } 
+    
+    .title { 
+        font-size: 1.5em; 
+    }
+    
+    .weather h2:after { 
+        content: url('weather-icon.svg');
+    }
+}
+
