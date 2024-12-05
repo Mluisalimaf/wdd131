@@ -11,8 +11,7 @@ body {
     flex-direction: column;
 }
 
-.container {
-    flex: 1;
+header {
     position: relative;
     width: 100%;  
     border: black 2px solid;
@@ -26,12 +25,15 @@ h1 {
 }
 
 .content {
-    display: flex; 
+    display: flex;
+    position: relative;
     justify-content: space-between;
     padding: 20px;
     margin-top: 10px;
     background-color: white;
 }
+
+.hero-image{}
 
 .data {
     border: 2px solid black;
@@ -43,11 +45,11 @@ h1 {
     padding: 20px;
 }
 
-.item {
+.weather p, .data p {
     padding: 5px;
 }
 
-.footer {
+footer {
     text-align: center; 
     padding: 10px; 
     font-size: 1em;
