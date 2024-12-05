@@ -24,16 +24,17 @@ h1 {
     background-color: red;
 }
 
-.content {
-    display: flex;
-    position: relative;
+.conteiner {
+    display: flex; 
     justify-content: space-between;
     padding: 20px;
     margin-top: 10px;
     background-color: white;
 }
 
-.hero-image{}
+.conteiner img{
+    width: 100%;
+}
 
 .data {
     border: 2px solid black;

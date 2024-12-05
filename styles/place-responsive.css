@@ -1,5 +1,5 @@
 @media (max-width: 750px) { 
-    .content { 
+    .conteiner { 
         display: grid; 
         grid-template-columns: auto;
         border: 2px solid black;
