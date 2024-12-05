@@ -7,7 +7,6 @@
     
     .data{ 
         border: none;
-        padding: none;
         margin: auto;
         border-bottom: 2px solid black;
         justify-content: center;
@@ -16,7 +15,6 @@
     .weather { 
         border: none;
         margin: auto;
-        padding: none;
         justify-content: center;
     } 
     
