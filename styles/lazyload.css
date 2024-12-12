@@ -1,0 +1,35 @@
+body{
+    background-color: lightsteelblue;
+}
+
+h1{
+    text-align: left;
+}
+
+main{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+    animation: fade;
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+footer{
+    border: 2px solid white;
+    background-color: white;
+}
