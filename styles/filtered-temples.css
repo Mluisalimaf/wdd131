@@ -1,0 +1,81 @@
+body { 
+    font-family: Arial, sans-serif; 
+    padding: 10px; 
+} 
+
+header{
+    background: #8357af;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+nav ul { 
+    display: flex; 
+    justify-content: center;
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+} 
+
+nav ul li { 
+    display: inline; 
+    margin: 0 10px;
+}
+
+nav ul li a { 
+    color: white;
+    font-size: 1rem; 
+    font-weight: bold;
+    text-decoration: none;
+} 
+
+nav ul li a:hover { 
+    text-decoration: underline; 
+}
+
+#temples-container { 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+
+.temple-card { 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    padding: 10px; 
+    margin: 10px 0; 
+    width: 300px; 
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1); 
+} 
+
+.temple-card img { 
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+} 
+
+.temple-card h2 { 
+    margin: 0; 
+    font-size: 1.5rem; 
+} 
+
+.temple-card p { 
+    margin: 5px 0;
+}
+
+footer{
+    background: #8357af;
+    padding: 1em 0;
+}
+
+footer p{
+    margin: 8px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
