@@ -113,3 +113,5 @@ const temples = [
     document.getElementById('new').addEventListener('click', () => displayTemples(temple => new Date(temple.dedicated).getFullYear() > 2000)); 
     document.getElementById('large').addEventListener('click', () => displayTemples(temple => temple.area > 90000)); 
     document.getElementById('small').addEventListener('click', () => displayTemples(temple => temple.area < 10000));
+
+    document.getElementById('lastModified').textContent = 'Last Modified: ' + document.lastModified
