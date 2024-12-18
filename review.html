@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maria Luisa Ferraz">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Week 05.">
+    <link rel="stylesheet" href="styles/form.css"/>
+<title>Submitted Review</title>
+
+</head> 
+<body> 
+    <h1>Revisão Submetida com Sucesso!</h1> 
+    <p>Você já submeteu <span id="reviewCount"></span> revisões.</p> 
+    
+    <script> let reviewCount = localStorage.getItem('reviewCount') || 0; 
+    reviewCount++; localStorage.setItem('reviewCount', reviewCount); 
+    document.getElementById('reviewCount').textContent = reviewCount; 
+    </script> 
+    </body>
+</html>
+
