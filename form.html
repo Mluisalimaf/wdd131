@@ -22,37 +22,36 @@
             <option value="" disabled selected>Select a product... </option>
         </select>
 
-        <label class="radio">Overall Rating: </label>
-        <div class="star-rating">
-            <input type="radio" name="stars" id="star-a" value="5">
-            <label for="star-a"></label>
+        <div class="rating"> 
+            <label>Overall Rating: </label>
+            <input type="radio" id="star1" name="rating" value="1" required> 
+            <label for="star1">☆</label> 
+            <input type="radio" id="star2" name="rating" value="2"> 
+            <label for="star2">☆☆</label> 
+            <input type="radio" id="star3" name="rating" value="3"> 
+            <label for="star3">☆☆☆</label> 
+            <input type="radio" id="star4" name="rating" value="4"> 
+            <label for="star4">☆☆☆☆</label> 
+            <input type="radio" id="star5" name="rating" value="5"> 
+            <label for="star5">☆☆☆☆☆</label> 
+        </div>
       
-            <input type="radio" name="stars" id="star-b" value="4">
-            <label for="star-b"></label>
-        
-            <input type="radio" name="stars" id="star-c" value="3">
-            <label for="star-c"></label>
-        
-            <input type="radio" name="stars" id="star-d" value="2">
-            <label for="star-d"></label>
-        
-            <input type="radio" name="stars" id="star-e" value="1">
-            <label for="star-e"></label>
-      </div>
-      
-
         <label class="date" for="installDate">Date of installation: </label>
         <input type="date" id="installDate" name="installDate" required>
 
-        <label class="feature">Which features did you find useful in the product? (Check all that apply)</label>
-        <div> 
-            <label><input type="checkbox" name="editing" value="yes">Photo Editing</label>
-            <label><input type="checkbox" name="code" value="yes">Coding</label>
-            <label><input type="checkbox" name="process" value="yes">Preprocessor</label>
-            <label><input type="checkbox" name="client" value="yes">FTP Client</label>
+        <div class="check"> 
+            <label>Which features did you find useful in the product? (Check all that apply)</label> 
+            <input type="checkbox" id="durability" name="feature" value="Durability"> 
+            <label for="durability">Durability</label> 
+            <input type="checkbox" id="ease" name="feature" value="Ease of Use"> 
+            <label for="ease">Ease of Use</label> 
+            <input type="checkbox" id="performance" name="feature" value="Performance"> 
+            <label for="performance">Performance</label> 
+            <input type="checkbox" id="design" name="feature" value="Design"> 
+            <label for="design">Design</label>
         </div>
 
-        <label class="review" for="review">Written Review: </label>
+        <label class="review" for="review">Written Review (Optional): </label>
         <textarea id="review" name="review"></textarea>
 
         <label class="name" for="username">Your name: </label>
