@@ -28,7 +28,7 @@ form{
     padding: 2rem 4%;
 }
 
-.rating {
+.radio {
     display: flex;
     align-items: end;
     margin-top: 35px;
