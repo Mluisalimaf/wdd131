@@ -107,6 +107,7 @@ main {
 }
 
 .desserts img{
+    border-radius: 8px;
     flex-direction: column;
     width: 45%;
     height: auto;
@@ -115,6 +116,7 @@ main {
 
 h2 a{
     color: purple;
+    margin-bottom: 50px;
 }
 
 footer { 
