@@ -14,12 +14,11 @@
         <nav> 
             <img src="pictures/logo.png" class="marca" alt="logo of the pastry">
             <a class="logo" href="/">Ana's Pastry</a>
-            <div class="mobile-menu">
-                <div class="line1"></div>
+            <div class="mobile-menu" aria-label="navigation menu">
                 <div class="line2"></div>
                 <div class="line3"></div>
             </div>
-            <ul class="nav-list"> 
+            <ul class="nav-list" role="menu"> 
                 <li><a href="siteplan.html">Home</a></li>
                 <li><a href="products.html">Products</a></li>  
                 <li><a href="contact.html">Contact</a></li> 
@@ -29,20 +28,29 @@
 
     <main>
         <div class="container3"> 
-        <section class="content1" id="clickable-container">
+        <section class="content1">
             <h1>Welcome to Ana's Pastry Shop</h1> 
             <p>We are a local pastry shop that sells the most incredibles desserts!</p>
         </section> 
 
-        <section class="content2" id="clickable-container">
-            <h2>Gluten and Lactose free</h2>
-            <p>We have options that can help you!</p>
-        </section>
-
-        <section class="content3" id="clickable-container">
+            <section class="content2">
+                <h2>Gluten and Lactose free</h2>
+                <p>We have options that can help you!</p>
+            </section>
+        
+        <section class="content3">
             <h2>Help for a dessert at the last time?</h2>
-            <p>We always have fresh desserts for you!</p>
+            <p>We always have fresh desserts for you! <a href="contact.html">Contact us!</a></p>
         </section>
+        </div>
+
+        <div class="home-page-mobile">
+            <h2>Welcome to Ana's Pastry Shop</h2> 
+            <p>We are a local pastry shop that sells the most incredibles desserts!</p>
+            <p>Gluten free and lactose free.</p>
+            <p>Always fresh desserts for you.<a href="contact.html">Contact us!</a></p>
+        <img src="pictures/pudim.jpg" class="pudim" alt="pudim of milk" loading="lazy">
+        
         </div>
 
     </main>

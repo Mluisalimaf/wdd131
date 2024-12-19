@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Maria Luisa Ferraz">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-products.css">
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Final project">
     <title>Ana's Pastry Shop - Products</title>
     <script src="project.js" defer></script>
@@ -14,12 +14,12 @@
         <nav> 
             <img src="pictures/logo.png" class="marca" alt="logo of the pastry">
             <a class="logo" href="/">Ana's Pastry</a>
-            <div class="mobile-menu">
+            <div class="mobile-menu" aria-label="navigation menu">
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
             </div>
-            <ul class="nav-list"> 
+            <ul class="nav-list" role="menu" > 
                 <li><a href="siteplan.html">Home</a></li>
                 <li><a href="products.html">Products</a></li>  
                 <li><a href="contact.html">Contact</a></li> 
@@ -30,11 +30,27 @@
         <h2>Our Products</h2> 
         <p>Always fresh for you!</p> 
         <div class="desserts">
-            <img src="pictures/cake.jpg" alt="a picture of a chocolate cake" loading="lazy"><figcaption>Chocolat Cake with White Brigadeiro</figcaption>
-            <img src="pictures/strawberry-pie.jpg" alt="a picture of a strawberry pie" loading="lazy"><figcaption>Strawberry Cheesecake Pie</figcaption>
-            <img src="pictures/peach-pie.jpg" alt="a picture of a peach pie" loading="lazy"><figcaption>Peach pie</figcaption>
-            <img src="pictures/lemon-pie.jpg" alt="a picture of a lemon pie" loading="lazy"><figcaption>Lemon Pie</figcaption>
+            <figure>
+                <img src="pictures/cake.jpg" alt="a picture of a chocolate cake" loading="lazy"><figcaption>Chocolat Cake with White Brigadeiro</figcaption>
+            </figure>
+            <figure>
+                <img src="pictures/strawberry-pie.jpg" alt="a picture of a strawberry pie" loading="lazy"><figcaption>Strawberry Cheesecake Pie</figcaption>
+            </figure>
+            <figure>
+                <img src="pictures/peach-pie.jpg" alt="a picture of a peach pie" loading="lazy"><figcaption>Peach pie</figcaption>
+            </figure>
+            <figure>
+                <img src="pictures/lemon-pie.jpg" alt="a picture of a lemon pie" loading="lazy"><figcaption>Lemon Pie</figcaption>
+            </figure>
+            <figure>
+                <img src="pictures/pudim.jpg" alt="a picture of a milk pudding" loading="lazy"><figcaption>Milk Pudding</figcaption>
+            </figure>
+            <figure>
+                <img src="pictures/trufa.jpg" alt="a picture of a choclate truffle" loading="lazy"><figcaption>Chocolat Truffle</figcaption>
+            </figure>
         </div>
+
+        <h2>Wanna order something special? <a href="contact.html">Contact us!</a></h2>
     </main> 
     <footer> 
         <p>© 2024 Ana's Pastry Shop  /  anaflavia@mail.com   /  (555) 21 98752-4589</p>

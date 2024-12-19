@@ -59,5 +59,3 @@ request.forEach(request => {
     option.textContent = request.name; 
     requestSelect.appendChild(option); 
 });
-
-document.getElementById('clickable-container').addEventListener('click', function() { window.location.href = 'https://mluisalimaf.github.io/wdd131/project/products.html' });
