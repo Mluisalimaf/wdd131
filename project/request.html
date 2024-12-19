@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maria Luisa Ferraz">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Final project">
+    <title>Ana's Pastry Shop - Contact</title>
+    <link rel="stylesheet" href="style.css"/>
+<title>Submitted request</title>
+
+</head> 
+<body> 
+    <h1>Request submitted with success!</h1> 
+    <p>You already submitted <span id="requestCount"></span> request.</p> 
+    
+    <script> let requestCount = localStorage.getItem('requestCount') || 0; 
+    requestCount++; localStorage.setItem('requestCount', requestCount); 
+    document.getElementById('requestCount').textContent = requestCount; 
+    </script> 
+    </body>
+</html>

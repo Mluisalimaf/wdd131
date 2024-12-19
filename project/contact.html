@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Maria Luisa Ferraz">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style-contact.css">
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Final project">
     <title>Ana's Pastry Shop - Contact</title>
     <script src="project.js" defer></script>
@@ -13,7 +13,7 @@
     <header>  
         <nav> 
             <img src="pictures/logo.png" class="marca" alt="logo of the pastry">
-            <a class="logo" href="/">Ana's Pastry Shop</a>
+            <a class="logo" href="/">Ana's Pastry</a>
             <div class="mobile-menu">
                 <div class="line1"></div>
                 <div class="line2"></div>
@@ -27,12 +27,45 @@
         </nav> 
     </header> 
     <main> 
-        <h1>Contact us</h1> 
-        <h3>E-mail</h3>
-        <p>anaflavia@mail.com</p> 
+        <h1>Have questions?</h1> 
+        <p>Contact us</p>
+        
+        <div class="container">
+        <div class="final">
+        <form method="get" action="request.html">
+            <label for="request">Request Type: </label>
+            <select id="request" name="request" required>
+                <option value="" disabled selected>Select... </option>
+            </select>
+          
+            <label class="name" for="username">Your email: </label>
+            <input type="text" id="username" name="username" required>
+
+            <label class="mail" for="useremail">Your name: </label>
+            <input type="text" id="useremail" name="useremail" required>
+
+            <label class="date" for="orderdate">Date of the order: </label>
+            <input type="date" id="orderdate" name="orderdate">
+    
+            <label class="textq" for="textqn">Your request: </label>
+            <textarea id="textqn" name="response" required></textarea>
+    
+            <button type="submit">Send</button>
+
+        </form>
+    </div>
+
+    <div id="map-container">  
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3675.8543594159228!2d-43.33635345534169!3d-22.88183785478341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1734617824925!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+        </iframe> 
+    </div>
+
+    </div>
+
     </main> 
     <footer> 
-        <p>© 2024 Ana's Pastry Shop</p>
+        <p>© 2024 Ana's Pastry Shop  /  anaflavia@mail.com   /  (555) 21 98752-4589</p>
+
     </footer>
 </body>
 </html>

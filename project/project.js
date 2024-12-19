@@ -42,3 +42,20 @@ const mobileNavbar = new MobileNavbar(
 );
 mobileNavbar.init();
 
+
+
+
+const request = [ 
+    { id: "fc-1888", name: "Order", averagerating: 4.5 }, 
+    { id: "fc-2050", name: "Question", averagerating: 4.7 }, 
+    { id: "fs-1586", name: "Compliment", averagerating: 5.5 },
+    { id: "fs-1987", name: "Complaint", averagerating: 3.5 }, 
+]; 
+
+const requestSelect = document.getElementById('request'); 
+request.forEach(request => { 
+    const option = document.createElement('option'); 
+    option.value = request.id; 
+    option.textContent = request.name; 
+    requestSelect.appendChild(option); 
+});
