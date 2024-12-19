@@ -39,21 +39,8 @@ nav{
     justify-content: space-around; 
     align-items: center; 
     font-family: Arial, sans-serif;    
+    height: 8vh;
 }
-
-body { 
-    font-family: Arial, sans-serif; 
-    line-height: 1.6; 
-    background-color: #edf1ef;
-} 
-
-header { 
-    background: #caa7be; 
-    color: #fff; 
-    padding: 1rem 0; 
-    position: relative;
-} 
-
 
 .nav-list {
     list-style: none;
