@@ -17,6 +17,7 @@ header {
     position: relative;
 } 
 
+
 a{
     color: #fff;
     text-decoration: none;
@@ -74,14 +75,15 @@ nav ul li {
 
 .marca {
     margin-right: 20px;
-    width: 60px;
+    width: 80px;
     border-radius: 6px;
 }
 
-main {
+main { 
     padding: 2rem; 
     text-align: center; 
 }
+
 
 #map-container {
     display: flex;
