@@ -107,6 +107,8 @@ main {
 }
 
 .desserts img{
+    display: flex;
+    flex-direction: row;
     width: 45%;
     height: auto;
     margin: 20px;
